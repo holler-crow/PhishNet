@@ -8,7 +8,8 @@
   
     "content_scripts": [
       {
-        "matches": ["*://*.mail.proton.me/*"],
+        "matches": ["*://*.mail.proton.me/*", "*://*.mail.google.com/*", "*://*.mail.yahoo.com/*",
+		    "*://*.mail.com/*", "*://*.mail.aol.com/*", "*://*.outlook.live.com/*", "*://*.icloud.com/mail/*"],
         "js": ["phishnet.js"]
       }
     ]
